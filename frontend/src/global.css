@@ -1,0 +1,41 @@
+.page-title {
+  color: var(--accent-white);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: 'amarurgt', 'ACES07', Arial, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.page-subtitle {
+  color: var(--accent-white);
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  font-family: 'amarurgt', 'ACES07', Arial, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+/* Swiper arrow size override*/
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 1.5rem !important;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: #000a;
+  color: var(--accent-red) !important;
+}
+
+@media (max-width: 900px) {
+  .page-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .page-subtitle {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}

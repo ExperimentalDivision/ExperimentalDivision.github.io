@@ -1,0 +1,10 @@
+section {
+  margin-bottom: 2rem;
+}
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 16px var(--accent-dark);
+  border: 2px solid var(--accent-border);
+  background: var(--accent-dark);
+}

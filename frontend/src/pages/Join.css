@@ -42,3 +42,13 @@ p {
 .join-button:hover {
   background-color: #0056b3;
 }
+
+.join-img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 2px solid var(--accent-border);
+  background: var(--accent-dark);
+}

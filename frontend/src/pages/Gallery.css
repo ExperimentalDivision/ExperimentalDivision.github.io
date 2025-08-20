@@ -1,4 +1,3 @@
-
 .gallery-title {
   color: var(--accent-white);
   font-size: 2.2rem;
@@ -54,6 +53,13 @@
   padding: 1rem;
   text-align: center;
   box-shadow: 0 2px 8px var(--accent-dark);
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.gallery-grid-item:active,
+.gallery-grid-item:focus {
+  box-shadow: 0 4px 16px var(--accent-red);
+  outline: none;
 }
 
 .grid-img {
@@ -73,6 +79,83 @@
   color: var(--accent-red);
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+.gallery-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-modal {
+  background: var(--accent-bg);
+  border-radius: 16px;
+  padding: 2rem 2rem 1.2rem 2rem;
+  box-shadow: 0 4px 32px var(--accent-dark);
+  max-width: 420px;
+  width: 90vw;
+  text-align: center;
+  position: relative;
+}
+
+.gallery-modal-img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 2px solid var(--accent-border);
+  background: var(--accent-dark);
+}
+
+.gallery-modal-title {
+  color: var(--accent-white);
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  font-family: 'Orbitron', 'Roboto', Arial, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.gallery-modal-details {
+  color: var(--accent-gray);
+  font-size: 1.08rem;
+  margin-bottom: 1.2rem;
+}
+
+.gallery-modal-close {
+  background: var(--accent-red);
+  color: var(--accent-white);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 8px var(--accent-dark);
+}
+
+/* Swiper navigation and pagination color overrides */
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--accent-red) !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.2rem !important;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 18px !important;
+  height: 18px !important;
 }
 
 .swiper-pagination-bullet {

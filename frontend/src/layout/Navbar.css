@@ -1,7 +1,6 @@
 .navbar {
   background: var(--accent-dark);
   padding: 0rem 2rem;
-  padding-top: 1rem;
   border: 2px solid var(--accent-border);
   box-shadow: 0 2px 8px rgba(0,0,0,0.7);
   position: sticky;
@@ -77,7 +76,7 @@
 }
 .navbar-tabs li span {
   display: block;
-  padding: 0.7rem 2rem;
+  padding: 1.5rem 2rem 1rem;
   color: var(--accent-white);
   font-weight: 600;
   font-size: 1.1rem;

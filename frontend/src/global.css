@@ -10,7 +10,8 @@
 
 .page-subtitle {
   color: var(--accent-white);
-  font-size: 2.5rem;
+  font-size: 2.75rem;
+  margin-top: 0rem;
   margin-bottom: 1.2rem;
   text-align: center;
   font-family: 'amarurgt', 'ACES07', Arial, sans-serif;
@@ -25,6 +26,7 @@
   font-size: 1.5rem !important;
   width: 20px !important;
   height: 20px !important;
+  border-radius: 8%;
   background-color: #000a;
   color: var(--accent-red) !important;
 }

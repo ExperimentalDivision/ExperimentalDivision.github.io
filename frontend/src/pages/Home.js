@@ -52,7 +52,7 @@ function Home() {
       <section className="shadow-container">
         <h2 style={{color: '#fff'}}>Our Mission</h2>
         <p>We are the premier combat robotics team at the University of Texas at Austin. We are driven to teach our members the skills they need in order to design, build, and compete in combat robotics competitions.</p>
-        <p>Want to see more of what we do? Meet our bots!</p>
+        <p>Want to see more of what we do? <a href="/gallery">Meet our bots!</a></p>
       </section>
       <section className="shadow-container">
         <h2 style={{color: '#fff'}}>Upcoming Events</h2>

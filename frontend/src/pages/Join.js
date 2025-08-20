@@ -8,18 +8,21 @@ function Join() {
       <h1 className="page-title">Join Us</h1>
       <section className="shadow-container">
         <h2 style={{color: '#fff'}}>Become a Member</h2>
-        <img className="dummy-img" src="/images/robot-join.jpg" alt="Join the Club" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur cursus, nisl erat dictum enim, nec dictum urna erat euismod erat.</p>
-        <p>Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, nec dictum urna erat euismod erat.</p>
+        <p>Interested in becoming a member? Come to our meetings: every Friday from 3-5 PM, usually in EER 1.504. Join our <a href="https://discord.gg/VPjuK8f5kq">Discord</a> for more information!</p>
+        <p>Note: Members will be required to pay $40 dues via Zelle (preferred) or cash. See below for what benefits are included for members.</p>
       </section>
       <section className="shadow-container">
         <h2 style={{color: '#fff'}}>Benefits</h2>
-        <img className="dummy-img" src="/images/robot-benefits.jpg" alt="Member Benefits" />
+        <p>After paying your membership dues, you will gain:</p>
         <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Pellentesque euismod, nisi eu consectetur cursus.</li>
-          <li>Suspendisse potenti. Etiam euismod, urna eu tincidunt consectetur.</li>
+          <li>An Experimental Division shirt</li>
+          <li>Comped registration fees for external competitions</li>
+          <li>Free registration for internal competitions</li>
+          <li>Access to PLAnt kits (the electronic components necessary to make a combat robot)</li>
+          <li>Access to the club's 3D-print queue</li>
+          <li>Personalized design reviews and guidance</li>
         </ul>
+        <img className="join-img" src="/images/EXD_Uniform_2024.png" alt="Club T Shirt" />
       </section>
     </div>
   );

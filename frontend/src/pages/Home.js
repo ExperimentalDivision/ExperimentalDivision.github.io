@@ -58,7 +58,7 @@ function Home() {
         <h2 style={{color: '#fff'}}>Upcoming Events</h2>
         <div style={{display: 'flex', justifyContent: 'center'}}>
           <iframe
-            src="https://calendar.google.com/calendar/u/2?cid=dGhlZXhwZXJpbWVudGFsZGl2aXNpb25AZ21haWwuY29t"
+            src="https://calendar.google.com/calendar/embed?src=theexperimentaldivision%40gmail.com&ctz=UTC"
             style={{border: 0, width: '100%', height: '500px', borderRadius: '10px'}}
             frameBorder="0"
             scrolling="no"

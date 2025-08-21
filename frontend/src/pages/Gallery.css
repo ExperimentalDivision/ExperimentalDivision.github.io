@@ -116,7 +116,7 @@
   color: var(--accent-white);
   font-size: 1.5rem;
   margin-bottom: 0.7rem;
-  font-family: 'Orbitron', 'Roboto', Arial, sans-serif;
+  font-family: 'amarurgt', 'Roboto', Arial, sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -178,7 +178,11 @@
     height: auto !important;
   }
   .gallery-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 0.7rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .gallery-modal {
+    max-width: 95vw;
+    padding: 1rem;
   }
 }

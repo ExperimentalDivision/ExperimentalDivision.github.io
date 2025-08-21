@@ -155,4 +155,7 @@ p {
   .home-carousel-slide {
     height: auto;
   }
+  .shadow-container {
+    padding: 1rem;
+  }
 }

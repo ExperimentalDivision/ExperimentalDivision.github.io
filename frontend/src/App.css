@@ -70,16 +70,16 @@ a:hover {
   color: var(--accent-white);
 }
 
-.container {
+.container, div[style*="maxWidth: '900px'"], .home-container, .updates-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-img.dummy-img {
+img.dummy-img, .carousel-img, .grid-img, .gallery-modal-img {
   width: 100%;
-  max-width: 400px;
-  height: 220px;
+  height: auto;
+  max-width: 100vw;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 16px #000a;
@@ -128,11 +128,11 @@ img.dummy-img {
 }
 
 @media (max-width: 900px) {
-  .container, div[style*="maxWidth: '900px'"] {
+  .container, div[style*="maxWidth: '900px'"], .home-container, .updates-container {
     max-width: 98vw !important;
     padding: 0 1vw !important;
   }
-  .dummy-img, iframe {
+  img.dummy-img, .carousel-img, .grid-img, .gallery-modal-img, iframe {
     max-width: 100vw !important;
     width: 100% !important;
     height: auto !important;

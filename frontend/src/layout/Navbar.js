@@ -16,6 +16,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
+        <img src="/images/exdLogo.png" alt="EXD Logo" className="navbar-logo" />
         <span className="navbar-title">Experimental Division</span>
         <button
           className="navbar-toggle"

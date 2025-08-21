@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Gallery.css';
 import '../global.css';
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper/modules";
 
 // Use the same image for all slides/grid items as a placeholder
 const images = [

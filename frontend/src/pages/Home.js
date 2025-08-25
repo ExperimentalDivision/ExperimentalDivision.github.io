@@ -9,13 +9,13 @@ import { Pagination, Navigation } from "swiper/modules";
 
 // Carousel images (using the same placeholder)
 const images = [
-  { label: "Robot 1", src: "/images/team.jpg" },
-  { label: "Robot 2", src: "/images/whopper.jpg" },
-  { label: "Robot 3", src: "/images/PLAnts.jpg" },
-  { label: "Robot 4", src: "/images/bevo.jpg" },
-  { label: "Robot 5", src: "/images/trr.jpg" },
-  { label: "Robot 6", src: "/images/robot-action1.jpg" },
-  { label: "Robot 7", src: "/images/testDrive.jpg" }
+  { label: "Team", src: "/images/team.jpg" },
+  { label: "Whopper", src: "/images/whopper.jpg" },
+  { label: "PLAnts", src: "/images/PLAnts.jpg" },
+  { label: "Bevo", src: "/images/bevo.jpg" },
+  { label: "TRR", src: "/images/trr.jpg" },
+  { label: "Lineup", src: "/images/lineup.png" },
+  { label: "TestDrive", src: "/images/testDrive.jpg" }
 ];
 
 function Home() {
@@ -58,8 +58,8 @@ function Home() {
         <h2 style={{color: '#fff'}}>Upcoming Events</h2>
         <div style={{display: 'flex', justifyContent: 'center'}}>
           <iframe
-            src="https://calendar.google.com/calendar/embed?src=theexperimentaldivision%40gmail.com&ctz=UTC"
-            style={{border: 0, width: '100%', height: '500px', borderRadius: '10px'}}
+            src="https://calendar.google.com/calendar/embed?src=theexperimentaldivision%40gmail.com&ctz=America%2FChicago"
+            style={{border: 0, width: '100%', height: '600px', borderRadius: '10px'}}
             frameBorder="0"
             scrolling="no"
             title="Google Calendar"
@@ -68,9 +68,12 @@ function Home() {
       </section>
       <section className="shadow-container">
         <h2 style={{color: '#fff'}}>Get Involved</h2>
-        <img className="dummy-img" src="/images/robot-build.jpg" alt="Building Robots" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur cursus, nisl erat dictum enim, nec dictum urna erat euismod erat.</p>
-        <p>Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, nec dictum urna erat euismod erat.</p>
+        {/* <img className="dummy-img" src="/images/robot-build.jpg" alt="Building Robots" /> */}
+        <p>Interested in getting involved? We would love to have you as a member! We accept members from all backgrounds and skill levels- 
+          there is no major requirement. We meet every Friday from 3-5 PM. See <a href="/join">how to join</a> for more information.
+        </p>
+        <p>Want to get a head start on your robotics journey? Check out our <a href="/resources">resources page</a> for tutorials and guides.
+        </p>
       </section>
     </div>
   );

@@ -8,14 +8,14 @@ function Footer() {
 			<div className='sponsors'>SPONSORED BY</div>
 			<div className='sponsor-list'>
 				<a
-					href='https://repeat-robotics.com/'
+					href='https://cncmadness.com/'
 					target='_blank'
 					rel='noopener noreferrer'
 					className='sponsor-logo-link'
 				>
 					<img
 						src='/images/cncMadness.png'
-						alt='Custom Sheet Metal'
+						alt='CNC Madness'
 						className='sponsor-logo-img'
 					/>
 				</a>
@@ -28,33 +28,33 @@ function Footer() {
 				>
 					<img
 						src='/images/repeat-robotics.png'
-						alt='Custom Sheet Metal'
+						alt='Repeat Robotics'
 						className='sponsor-logo-img'
 					/>
 				</a>
         <span className='sponsor-sep'>|</span>
 				<a
-					href='https://repeat-robotics.com/'
+					href='https://customatx.com/'
 					target='_blank'
 					rel='noopener noreferrer'
 					className='sponsor-logo-link'
 				>
 					<img
 						src='/images/customSheetMetal.avif'
-						alt='CNC Madness'
+						alt='Custom Sheet Metal'
 						className='sponsor-logo-img'
 					/>
 				</a>
 				<span className='sponsor-sep'>|</span>
 				<a
-					href='https://repeat-robotics.com/'
+					href='https://sendcutsend.com/'
 					target='_blank'
 					rel='noopener noreferrer'
 					className='sponsor-logo-link'
 				>
 					<img
 						src='/images/sendCutSend.png'
-						alt='Repeat Robotics'
+						alt='SendCutSend'
 						className='sponsor-logo-img'
 					/>
 				</a>

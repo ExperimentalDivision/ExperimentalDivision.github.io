@@ -7,13 +7,14 @@ import "swiper/css/navigation";
 
 // Use the same image for all slides/grid items as a placeholder
 const images = [
-  { label: "Brat", src: "/images/bots/brat.png", details: "Robot 1 details." },
-  { label: "Hook 'em", src: "/images/bots/hookem.jpg", details: "Robot 2 details." },
-  { label: "Robot 3", src: "/images/PLAnts.jpg", details: "Robot 3 details." },
+  { label: "brat", src: "/images/bots/brat.png", details: "Hook ‘em and brat are opposites. Hook ‘em uses its forks to reach and lift opponents, while brat drives over them." },
+  { label: "Hook 'em", src: "/images/bots/hookem.jpg", details: "Hook ‘em and brat are opposites. Hook ‘em uses its forks to reach and lift opponents, while brat drives over them" },
+  { label: "Valstrax", src: "/images/bots/valstrax.jpg", details: "The winner of 2025 TRR!" },
+  { label: "Whopper", src: "/images/bots/whopper.jpg", details: "Lost in the sauce." },
+  { label: "Mechaniacs", src: "/images/bots/mechaniacs.jpg", details: "Mechaniacs." },
   { label: "Dreamsiccle", src: "/images/bots/dreamsiccle.jpg", details: "DreamSiccle is a horizontal spinner, with a strong chassis and lots of weight put into the weapon it can take a deal lots of hits." },
-  { label: "Robot 5", src: "/images/trr.jpg", details: "Robot 5 details." },
-  { label: "Robot 6", src: "/images/robot-action1.jpg", details: "Robot 6 details." },
-  { label: "Robot 7", src: "/images/testDrive.jpg", details: "Robot 7 details." }
+  { label: "Fri3d", src: "/images/bots/fri3d.jpg", details: "Fri3d was designed and built in 3 days." },
+  { label: "Miralis", src: "/images/bots/miralis.jpg", details: "Miralis." },
 ];
 
 function Gallery() {

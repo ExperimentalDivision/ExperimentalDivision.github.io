@@ -9,24 +9,15 @@ function About() {
       <h1 className="page-title">About Us</h1>
       <section className="shadow-container">
         <h2 style={{color: '#fff'}}>Who We Are</h2>
-        <img className="dummy-img" src="/images/robot-logo.jpg" alt="Club Logo" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur cursus, nisl erat dictum enim, nec dictum urna erat euismod erat.</p>
-        <p>Suspendisse potenti. Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, nec dictum urna erat euismod erat.</p>
+        {/* <img className="dummy-img" src="/images/robot-logo.jpg" alt="Club Logo" /> */}
+        <p>The Experimental Division is the University of Texas's combat robotics club. 
+          We focus on teaching and inspiring students of all majors to build competitive robots for competitions across the nation. </p>
       </section>
       <section className="shadow-container">
         <h2 style={{color: '#fff'}}>Our History</h2>
-        <img className="dummy-img" src="/images/robot-history.jpg" alt="Club History" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur cursus, nisl erat dictum enim, nec dictum urna erat euismod erat.</p>
-        <p>Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, nec dictum urna erat euismod erat.</p>
-      </section>
-      <section className="shadow-container">
-        <h2 style={{color: '#fff'}}>Our Team</h2>
-        <img className="dummy-img" src="/images/robot-team2.jpg" alt="Team Members" />
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Pellentesque euismod, nisi eu consectetur cursus.</li>
-          <li>Suspendisse potenti. Etiam euismod, urna eu tincidunt consectetur.</li>
-        </ul>
+        {/* <img className="dummy-img" src="/images/robot-history.jpg" alt="Club History" /> */}
+        <p>Our club was founded in 2024, by a group of UT students who wanted to foster a passionate community of roboticists to compete in events across Texas. 
+          What started as a group of friends creating hobby robots grew into the largest university combat robotics club in Texas.</p>
       </section>
     </div>
   );
